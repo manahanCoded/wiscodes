@@ -1,6 +1,6 @@
 <?php
     $servername = "localhost";
-    $username = "u0_a898";
+    $username = "root";
     $password = "myPasswordChange"; 
     $dbname = "loginUser_db"; 
 
