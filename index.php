@@ -87,7 +87,6 @@ $result = $conn->query("SELECT * FROM users");
         <tr>
             <th>ID</th>
             <th>Username</th>
-            <th>Created At</th>
             <th>Actions</th>
         </tr>
         <?php while($row = $result->fetch_assoc()): ?>
