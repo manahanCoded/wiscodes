@@ -62,6 +62,7 @@ $result = $conn->query("SELECT * FROM users");
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section >
     <h2>User Management</h2>
     <h3>Add user:</h3>
     <a href="add.php">Create user</a>
@@ -78,6 +79,7 @@ $result = $conn->query("SELECT * FROM users");
 
         <button type="submit">Update User</button>
     </form>
+    </section>
     <?php endif; ?>
 
     <h3>Users List</h3>
