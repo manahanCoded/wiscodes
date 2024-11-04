@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "myUsername";
     $password = "myPasswordChange"; 
-    $dbname = "phonebook"; 
+    $dbname = "loginUser_db"; 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
